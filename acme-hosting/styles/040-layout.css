@@ -1,0 +1,69 @@
+/*----------------------------------------------------------------------------
+layout.css                                                                  
+Enthält alle übergreifenden typographischen Regeln.  
+*/
+/* Header
+----------------------------------------------------------------------------*/
+
+header{
+    text-align: left;
+}
+
+.headline{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    border: solid;
+    border-color: lightblue;
+}
+
+/* Content
+-----------------------------------------------------------------------------*/
+
+.features{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.features>div{
+    padding: 20px 10px;
+    margin: 30px;
+    border: none;
+    width: 200px;
+}
+
+.products{
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.products>div{
+    padding: 20px 10px;
+    margin: 30px;
+    border: solid;
+    width: 200px;
+}
+
+.socialmediasite{
+    resize: both;
+    
+}
+/* Section
+-----------------------------------------------------------------------------*/
+
+section{
+    border-bottom-style: solid;
+    border-top-style: hidden;
+    border-left-style: hidden;
+    border-right-style: hidden;
+    border-color: lightblue;
+}
+
+
+/* Raster
+-----------------------------------------------------------------------------*/
+
+h3{
+    color: lightblue;
+    
+}
