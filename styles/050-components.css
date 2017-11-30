@@ -1,0 +1,49 @@
+/* ----------------------------------------------------------------------------
+components.css                                                                  
+Enthält alle Regeln zu Komponenten.  
+
+Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
+----------------------------------------------------------------------------*/
+
+a{
+    text-decoration: none;
+    
+}
+
+a:link{
+    color: lightblue;
+}
+
+a:visited{
+    color:lightseagreen;
+}
+
+a:hover{
+    color:black;
+    border:solid;
+}
+
+a:active{
+    color: aqua;
+}
+
+.navigation--items{
+    text-align:center;
+}
+
+
+.navigation--items li{
+    text-align: center;
+    background-color: white;
+    border: 2px solid black;
+    background-size: cover;
+}
+
+.navigation--items li{
+    font-size: 200%;
+    text-decoration: none;
+}
+
+.subheader{
+    filter: opacity(40%);
+}
